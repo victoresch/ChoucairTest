@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="770ae4f51fff81e9dedf74d9085b6d2862924a13f7f4c8344098f3054a7ffca2.html">Sign Up To Work</a></span>
+                > <span class="truncate-60"><a
+                    href="09c7d6cbde423308c5f2eafb44186e0ebccb0221eb38ae3d34d91d20fe98436f.html">register new user </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-02-2020 23:10</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Sign Up To Work </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user
+I want to sing up to work
+to register me
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">register new user
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="ca2e2f8e3fd7f2697607af61d95a30fda0534cf2a12c87d905ad1c24f5868914.png" title="Given that user wants to register" width="1034"/>
+                <img src="796eac4788cce8cf80aea61baa8f6da167a9cc03797690682494d3abf6303a1e.png" title="Victor El usuario abre la p&aacute;gina de empleos de choucair " width="1034"/>
+                <img src="796eac4788cce8cf80aea61baa8f6da167a9cc03797690682494d3abf6303a1e.png" title="Victor opens the Choucair jobs page" width="1034"/>
+                <img src="796eac4788cce8cf80aea61baa8f6da167a9cc03797690682494d3abf6303a1e.png" title="Victor clicks on Boton de convocatorias" width="1034"/>
+                <img src="1b5d39fcc0b37e42e5485d32b90a2dafd0108945ed7851a7921a675f23da86a5.png" title="Victor clicks on Boton de convocatorias" width="1034"/>
+                <img src="b2d7901f69c44c7a5b42ab8a16aad3712007659b8627d5814633cd07cffdcd7e.png" title="When diligence the form" width="1034"/>
+                <img src="06356ab08e3fdfdb0bcc48d69e6990bcf5390eefd31484bb6ee221f7b6a3ad6e.png" title="When diligence the form" width="1034"/>
+                <img src="d823a624a8545995a019d77239d93a4537d8ad66363857854c10bbdc7586914f.png" title="Victor enters 'Analista' into Casilla de palabras claves" width="1034"/>
+                <img src="8b411ba3e773ea3f4cbd9e0d0f12720bb987513ca92f0980dd68c95ff6f73994.png" title="Victor enters 'Analista' into Casilla de palabras claves" width="1034"/>
+                <img src="68d084acf652b4c87f1df3a87df6781c128065e478cc665e5409018139a36e3d.png" title="Victor enters 'Medellin' into Casilla de ubicaci&oacute;n" width="1034"/>
+                <img src="12bec5fcf6827df8f678822749cc925cbe0d89ae112109bcb1f059edb4e66ed1.png" title="Victor enters 'Medellin' into Casilla de ubicaci&oacute;n" width="1034"/>
+                <img src="effba23ec05403b732cbec8d0a323835f9624a4c30bd213c5a505ea2a4d01ace.png" title="Victor clicks on Casilla de ubicaci&oacute;n" width="1034"/>
+                <img src="635ca67e5fb1e6390898c07168f6e0de673d867af9e66e2cc0e5f458ea18167d.png" title="Victor clicks on Casilla de ubicaci&oacute;n" width="1034"/>
+                <img src="358cc3acc5ba0db4265c6a61edbeef80fd27f34239ec78799ee9aee6aea8ca3e.png" title="Victor clicks on Resultado de busqueda" width="1034"/>
+                <img src="06356ab08e3fdfdb0bcc48d69e6990bcf5390eefd31484bb6ee221f7b6a3ad6e.png" title="Victor clicks on Resultado de busqueda" width="1034"/>
+                <img src="06356ab08e3fdfdb0bcc48d69e6990bcf5390eefd31484bb6ee221f7b6a3ad6e.png" title="Then see a confirmation on screen: <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
